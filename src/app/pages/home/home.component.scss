@@ -1,0 +1,20 @@
+$sec-bg-color: #96b7bc;
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $sec-bg-color;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+}
+
+
+
+@media screen and (max-width: 710px) {
+  .home {
+
+  }
+}
