@@ -12,4 +12,9 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   box-sizing: border-box;
   background-color: $bg-color;
+  cursor: url('/assets/cat-cursor.cur'), auto;
+}
+
+a:hover{
+  cursor: url('/assets/cat-cursor-pointer.cur'), auto;
 }
