@@ -11,10 +11,6 @@ $sec-bg-color: #96b7bc;
   overflow: scroll;
 }
 
-
-
-@media screen and (max-width: 710px) {
-  .home {
-
-  }
+::-webkit-scrollbar {
+  display: none;
 }

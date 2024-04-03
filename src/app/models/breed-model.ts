@@ -1,4 +1,4 @@
-export interface breed {
+export interface Breed {
   weight: {
     imperial: string;
     metric: string;
@@ -14,12 +14,12 @@ export interface breed {
   country_code: string;
   description: string;
   life_span: string;
-  indoor: 0;
-  lap: 0;
+  indoor: number;
+  lap: number;
+  alt_names: string;
   adaptability: number;
   affection_level: number;
   child_friendly: number;
-  cat_friendly: number;
   dog_friendly: number;
   energy_level: number;
   grooming: number;
@@ -29,7 +29,6 @@ export interface breed {
   social_needs: number;
   stranger_friendly: number;
   vocalisation: number;
-  bidability: number;
   experimental: number;
   hairless: number;
   natural: number;

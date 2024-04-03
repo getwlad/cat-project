@@ -1,9 +1,9 @@
-import { breed } from './breed-model';
+import { Breed } from './breed-model';
 
-export interface cat {
+export interface Cat {
   id: string;
   width: number;
   height: number;
   url: string;
-  breeds: breed[];
+  breeds?: Breed[];
 }
